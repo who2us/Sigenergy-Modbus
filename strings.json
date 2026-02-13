@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SigenEnergy Gateway",
+        "description": "Connect to your SigenEnergy gateway to enable Modbus TCP.\n\nYour gateway IP is typically on the sticker on the device or in your router's DHCP list.",
+        "data": {
+          "host": "Gateway IP Address",
+          "port": "WebSocket Port",
+          "username": "Username",
+          "password": "Password",
+          "serial": "Serial Number (optional — auto-detected if blank)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect — check the IP address and port (default 8080).",
+      "invalid_auth": "Authentication failed — check your username and password.",
+      "unknown": "Unexpected error. Enable debug logging for details."
+    },
+    "abort": {
+      "already_configured": "This gateway is already configured."
+    }
+  }
+}

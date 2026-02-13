@@ -1,0 +1,13 @@
+{
+  "domain": "sigenergy_modbus_tcp",
+  "name": "SigenEnergy Modbus TCP",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/yourusername/sigenergy-modbus-tcp-ha",
+  "issue_tracker": "https://github.com/yourusername/sigenergy-modbus-tcp-ha/issues",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "iot_class": "local_polling",
+  "integration_type": "device"
+}
