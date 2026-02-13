@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Local Gateway",
+        "description": "Connect to your SigenEnergy gateway on your local network. The gateway IP is on the device sticker or in your router's DHCP list.",
+        "data": {
+          "host": "Gateway IP Address",
+          "port": "WebSocket Port (default 8080)",
+          "username": "Gateway Username",
+          "password": "Gateway Password",
+          "serial": "Serial Number (leave blank to auto-detect)"
+        }
+      },
+      "cloud": {
+        "title": "Cloud Account (optional)",
+        "description": "Enter your SigenEnergy app credentials to enable live energy sensors (battery SoC, PV power, grid power, generation totals). {note}",
+        "data": {
+          "cloud_username": "Cloud Username (email)",
+          "cloud_password": "Cloud Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect — check the address and port.",
+      "invalid_auth": "Authentication failed — check your username and password.",
+      "unknown": "Unexpected error. Enable debug logging for details."
+    },
+    "abort": {
+      "already_configured": "This gateway is already configured."
+    }
+  }
+}
